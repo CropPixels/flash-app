@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards</title>
+    <style>
+        .card {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 20px auto;
+            width: 600px;
+            height: 300px;
+            text-align: center; /* Center aligns horizontally */
+            display: flex;      /* Use Flexbox */
+            justify-content: center; /* Centers content horizontally */
+            flex-direction: column; /* Stacks children in a column */
+            font-size: 24px;   /* Increase font size */
+        }
+
+        .card.flipped .front {
+            display: none;
+        }
+
+        .card.flipped .back {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <ul id="set-list"></ul>
+    <div id="sets-container"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>

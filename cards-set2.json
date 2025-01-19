@@ -1,0 +1,8 @@
+{
+    "id": 2,
+    "name": "Simple Math",
+    "cards": [
+        {"front": "What is 2 + 2?", "back": "4"},
+        {"front": "What is 5 * 3?", "back": "15"}
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "id": 1,
+    "name": "Fact Table Techniques",
+    "cards": [
+        {"front": "What is the grain of a fact table?", "back": "Can't remember right now"},
+        {"front": "What is Dimensional Modeling?", "back": "FIIK"}
+    ]
+}
